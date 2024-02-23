@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  AppCine
+
+  Created by Luis De La Rosa on 01/02/24.
+  
+*/
+
+"Start.Lbl.Title" = "¡Bienvenido!";
+"Login.Lbl.Title.Credentials" = "Ingresa tus credenciales para acceder.";
+"Login.Lbl.Title.Apps" = "Puedes ingresar también con:";
+"Login.Txf.Mail.Placeholder" = "Ingresa tu correo electrónico.";
+"Login.Txf.Mail.Label" = "Correo electrónico";
+"Login.Txf.Password.Placeholder" = "Ingresa tu contraseña";
+"Login.Txf.Password.Label" = "Contraseña";
+"Registry.Lbl.Title" = "Registrate con tu correo electronico";
+"Registry.Lbl.Title.Apps" = "Puedes registrarte también con:";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
