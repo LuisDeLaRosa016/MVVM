@@ -13,7 +13,6 @@
 		C25C04602B7D521600C8C736 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C045F2B7D521600C8C736 /* RegisterViewController.swift */; };
 		C25C04622B7EDFD300C8C736 /* AnimationLogin.gif in Resources */ = {isa = PBXBuildFile; fileRef = C25C04612B7EDFD300C8C736 /* AnimationLogin.gif */; };
 		C25C04642B7FD15000C8C736 /* Phantom.json in Resources */ = {isa = PBXBuildFile; fileRef = C25C04632B7FD15000C8C736 /* Phantom.json */; };
-		C25C04662B86D4ED00C8C736 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C25C04652B86D4ED00C8C736 /* GoogleService-Info.plist */; };
 		C25C04682B86DFC000C8C736 /* ExtensionsLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C04672B86DFC000C8C736 /* ExtensionsLogin.swift */; };
 		C285EE7D2B6C7EAF00AAA49C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C285EE7C2B6C7EAF00AAA49C /* Localizable.strings */; };
 		C285EE812B6C800500AAA49C /* ExtensionComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285EE802B6C800500AAA49C /* ExtensionComponents.swift */; };
@@ -32,6 +31,7 @@
 		C2A869562B6C0CEB00DFF545 /* AppCineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A869552B6C0CEB00DFF545 /* AppCineUITestsLaunchTests.swift */; };
 		C2E005E92B86EE68002BC6E3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E005E82B86EE68002BC6E3 /* LoginViewModel.swift */; };
 		C2E005EB2B86EEED002BC6E3 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E005EA2B86EEED002BC6E3 /* RegisterViewModel.swift */; };
+		C2E005ED2B8D7F5A002BC6E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2E005EC2B8D7F5A002BC6E3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,6 @@
 		C25C045F2B7D521600C8C736 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C25C04612B7EDFD300C8C736 /* AnimationLogin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AnimationLogin.gif; sourceTree = "<group>"; };
 		C25C04632B7FD15000C8C736 /* Phantom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Phantom.json; sourceTree = "<group>"; };
-		C25C04652B86D4ED00C8C736 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C25C04672B86DFC000C8C736 /* ExtensionsLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsLogin.swift; sourceTree = "<group>"; };
 		C285EE7C2B6C7EAF00AAA49C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		C285EE802B6C800500AAA49C /* ExtensionComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionComponents.swift; sourceTree = "<group>"; };
@@ -86,6 +85,7 @@
 		C2A869552B6C0CEB00DFF545 /* AppCineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C2E005E82B86EE68002BC6E3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		C2E005EA2B86EEED002BC6E3 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		C2E005EC2B8D7F5A002BC6E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D4315C5B510297E366D7A722 /* Pods-AppCine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCine.release.xcconfig"; path = "Target Support Files/Pods-AppCine/Pods-AppCine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -241,7 +241,7 @@
 				C2A869342B6C0CE900DFF545 /* SceneDelegate.swift */,
 				C2A8693B2B6C0CEA00DFF545 /* Assets.xcassets */,
 				C2A869402B6C0CEA00DFF545 /* Info.plist */,
-				C25C04652B86D4ED00C8C736 /* GoogleService-Info.plist */,
+				C2E005EC2B8D7F5A002BC6E3 /* GoogleService-Info.plist */,
 			);
 			path = AppCine;
 			sourceTree = "<group>";
@@ -397,11 +397,11 @@
 			files = (
 				C2A8693F2B6C0CEA00DFF545 /* LaunchScreen.storyboard in Resources */,
 				C285EE842B6DA6DF00AAA49C /* cine.json in Resources */,
-				C25C04662B86D4ED00C8C736 /* GoogleService-Info.plist in Resources */,
 				C285EE8C2B6DD5A000AAA49C /* Welcome.json in Resources */,
 				C25C04642B7FD15000C8C736 /* Phantom.json in Resources */,
 				C285EE7D2B6C7EAF00AAA49C /* Localizable.strings in Resources */,
 				C25C04622B7EDFD300C8C736 /* AnimationLogin.gif in Resources */,
+				C2E005ED2B8D7F5A002BC6E3 /* GoogleService-Info.plist in Resources */,
 				C2A8693C2B6C0CEA00DFF545 /* Assets.xcassets in Resources */,
 				C2A8693A2B6C0CE900DFF545 /* Main.storyboard in Resources */,
 			);

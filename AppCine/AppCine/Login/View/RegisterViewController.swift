@@ -8,7 +8,6 @@
 import UIKit
 import Lottie
 import MaterialComponents
-import FirebaseAuth
 
 class RegisterViewController: UIViewController {
 
@@ -77,7 +76,7 @@ class RegisterViewController: UIViewController {
     
 
     @IBAction func btnChangeLoginTap(_ sender: Any) {
-        
+        //Change of view by tapped the button "btnChangeLoginTap"
         let stb = UIStoryboard(name: "Main", bundle: nil)
         let vc = stb.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
         self.navigationController?.pushViewController(vc, animated: true)
